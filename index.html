@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    Based on the portfolio template by Yasmin Gonçalves (@yasmndev).
+    Original template: https://github.com/yasmngoncalves/portfolio-template
+    Licensed under Creative Commons BY-NC 4.0.
+    https://creativecommons.org/licenses/by-nc/4.0/
+  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AJDEV — Alberto Junior's portfolio. Computer Engineering student focused on software development, networks and practical technology solutions." />
+  <meta name="theme-color" content="#050505" />
+  <title>AJDEV | Alberto Junior</title>
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container nav-wrapper">
+      <a class="logo" href="#home" aria-label="AJDEV home"><span>AJ</span>DEV<span class="cursor">_</span></a>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon" aria-label="Open navigation">☰</label>
+      <nav class="navbar" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#journey">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="site-controls" aria-label="Site preferences">
+        <button id="lang-toggle" class="control-btn" type="button" aria-label="Change language">PT</button>
+        <button id="theme-toggle" class="control-btn theme-toggle" type="button" aria-label="Switch to light mode"><i class="fa-regular fa-sun"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">&gt; Hello, World!<span class="cursor">_</span></p>
+          <h1>I'm <span>Alberto Junior.</span></h1>
+          <h2>Computer Engineering Student.</h2>
+          <p class="hero-description">Building software, learning continuously, and turning real-world ideas into practical technology solutions.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-light">Explore my work <span>↘</span></a>
+            <a href="https://github.com/albertojunior-dev" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">GitHub <span>↗</span></a>
+          </div>
+          <div class="hero-meta">
+            <span><i class="fa-solid fa-code"></i> Software Development</span>
+            <span><i class="fa-solid fa-network-wired"></i> Computer Networks</span>
+            <span><i class="fa-solid fa-shield-halved"></i> Cybersecurity</span>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="portrait-frame">
+            <img src="assets/imgs/alberto-profile.png" alt="Black and white illustrated portrait of Alberto Junior" class="profile-img" />
+          </div>
+          <span class="visual-tag tag-one">01 // AJDEV</span>
+          <span class="visual-tag tag-two">BUILD. LEARN. IMPROVE.</span>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll to about section">SCROLL <span>↓</span></a>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container split-section">
+        <div>
+          <p class="section-index">01 / ABOUT</p>
+          <h2 class="section-title">From hospitality<br />to engineering.</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p>I'm a Computer Engineering student with a professional background in hospitality, where I developed strong communication, teamwork and people-management skills while taking on team leadership responsibilities.</p>
+          <p>Hospitality has played an important role in my professional journey, but my goal is now to transition into the technology industry and build my career in engineering and software development.</p>
+          <p>I enjoy turning ideas into practical solutions, learning new technologies and working on projects that combine problem-solving, creativity and real-world needs.</p>
+          <div class="soft-skills">
+            <span>Leadership</span><span>Communication</span><span>Teamwork</span><span>Problem Solving</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="binary-bridge" aria-hidden="true">
+      <div class="binary-line"><span class="binary-js-track" data-direction="left"></span></div>
+      <div class="binary-line"><span class="binary-js-track" data-direction="right"></span></div>
+    </div>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <p class="section-index">02 / SKILLS</p>
+        <div class="section-heading-row">
+          <h2 class="section-title">Tools I work with.</h2>
+          <p>Technologies and concepts I use in academic and personal projects.</p>
+        </div>
+        <div class="skill-groups reveal">
+          <article class="skill-group"><span class="group-number">01</span><h3>Programming</h3><div class="skill-tags"><span><i class="devicon-python-plain"></i> Python</span><span><i class="devicon-java-plain"></i> Java</span><span><i class="devicon-c-plain"></i> C</span><span><i class="devicon-javascript-plain"></i> JavaScript</span></div></article>
+          <article class="skill-group"><span class="group-number">02</span><h3>Web & Database</h3><div class="skill-tags"><span><i class="devicon-html5-plain"></i> HTML</span><span><i class="devicon-css3-plain"></i> CSS</span><span><i class="fa-solid fa-database"></i> SQL</span><span><i class="devicon-mysql-plain"></i> MySQL</span></div></article>
+          <article class="skill-group"><span class="group-number">03</span><h3>Tools</h3><div class="skill-tags"><span><i class="devicon-git-plain"></i> Git</span><span><i class="devicon-github-original"></i> GitHub</span><span><i class="devicon-docker-plain"></i> Docker</span><span><i class="devicon-linux-plain"></i> Linux</span></div></article>
+          <article class="skill-group"><span class="group-number">04</span><h3>Computer Networks</h3><div class="skill-tags"><span><i class="fa-solid fa-network-wired"></i> Cisco</span><span>VLANs</span><span>OSPF</span><span>Network Fundamentals</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="section-index">03 / PROJECTS</p>
+        <div class="section-heading-row"><h2 class="section-title">Selected work.</h2><p>Projects where I apply engineering to practical problems.</p></div>
+        <div class="projects-carousel-wrap reveal">
+          <button class="projects-arrow projects-prev" type="button" aria-label="Previous projects">←</button>
+          <div class="projects-list" id="projectsCarousel">
+            <article class="project-card">
+              <div class="project-top"><span class="project-number">01</span><span class="project-status">INTERACTIVE MEMORY GAME</span></div>
+              <div class="project-visual fullhouse"><span class="terminal-line">$ full-house --train-memory</span><strong>FULL HOUSE<br />MEMORY GAME</strong><div class="memory-grid"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+              <div class="project-content"><h3>Full House Memory Game</h3><p>An interactive memory-training game inspired by real restaurant service. Players listen to customer orders, remember them and test their accuracy across increasingly challenging rounds.</p><div class="project-stack"><span>JavaScript</span><span>HTML/CSS</span><span>Web Audio</span><span>Game UX</span></div><div class="project-links"><a href="https://albertojunior-dev.github.io/full-house-memory-game/" target="_blank" rel="noopener noreferrer">View live project ↗</a></div></div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-top"><span class="project-number">02</span><span class="project-status">REAL-WORLD PROJECT</span></div>
+              <div class="project-visual steak"><span class="terminal-line">$ knowledge --served-digital</span><strong>STEAK CUTS<br />EXPERIENCE</strong><div class="cut-lines">TENDERLOIN&nbsp;&nbsp; RIBEYE&nbsp;&nbsp; SIRLOIN<br />T-BONE&nbsp;&nbsp; CHATEAUBRIAND&nbsp;&nbsp; WAGYU</div></div>
+              <div class="project-content"><h3>Steak Cuts Experience</h3><p>An interactive website designed for steakhouse guests to explore beef cuts, their characteristics and aging processes. The project turns hospitality knowledge into an accessible digital experience for customers.</p><div class="project-stack"><span>Web</span><span>UX</span><span>Hospitality</span><span>Product Knowledge</span></div><div class="project-links"><a href="https://albertojunior-dev.github.io/steak-cuts-experience/" target="_blank" rel="noopener noreferrer">View live project ↗</a></div></div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-top"><span class="project-number">03</span><span class="project-status">IMAGE PROCESSING PROJECT</span></div>
+              <div class="project-visual optics"><span class="terminal-line">$ optics-lab --simulate-camera</span><strong>3D OPTICS<br />LAB</strong><div class="optics-rays"><i></i><i></i><i></i></div><div class="optics-lens"></div></div>
+              <div class="project-content"><h3>Image Processing — 3D Optics Lab</h3><p>An interactive 3D laboratory that visualizes camera optics, converging lenses, light rays and image formation while connecting physical camera concepts with digital image processing.</p><div class="project-stack"><span>Three.js</span><span>JavaScript</span><span>3D</span><span>Image Processing</span></div><div class="project-links"><a href="https://albertojunior-dev.github.io/image-processing-3d-optics-lab/" target="_blank" rel="noopener noreferrer">View live project ↗</a></div></div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-top"><span class="project-number">04</span><span class="project-status">ACADEMIC PROJECT</span></div>
+              <div class="project-visual discover"><span class="terminal-line">$ discover-lisboa --explore</span><strong>DISCOVER<br />LISBOA</strong><div class="map-grid"></div></div>
+              <div class="project-content"><h3>Discover Lisboa</h3><p>A web application designed to help users discover Lisbon through points of interest and routes. Built as an academic project exploring web development, distributed systems, databases and containerization.</p><div class="project-stack"><span>Python</span><span>Flask</span><span>MySQL</span><span>Docker</span><span>HTML/CSS</span></div><div class="project-links"><span class="coming-soon">GitHub deploy coming soon</span></div></div>
+            </article>
+          </div>
+          <button class="projects-arrow projects-next" type="button" aria-label="Next projects">→</button>
+          <div class="projects-progress" aria-hidden="true"><span id="projectsProgress"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="journey" class="section section-alt">
+      <div class="container">
+        <p class="section-index">04 / EXPERIENCE</p>
+        <div class="section-heading-row"><h2 class="section-title">My journey.</h2><p>Skills from one industry, applied to the next chapter.</p></div>
+        <div class="timeline reveal">
+          <article><span class="timeline-dot"></span><p class="timeline-label">FOUNDATION</p><h3>Hospitality</h3><p>Customer experience, communication, adaptability and working effectively in fast-paced environments.</p></article>
+          <article><span class="timeline-dot"></span><p class="timeline-label">GROWTH</p><h3>Team Leadership</h3><p>Leadership, responsibility, teamwork and supporting people toward a shared goal.</p></article>
+          <article><span class="timeline-dot"></span><p class="timeline-label">NOW</p><h3>Computer Engineering</h3><p>Software development, networks, databases and building technical solutions through academic and personal projects.</p></article>
+          <article class="next"><span class="timeline-dot"></span><p class="timeline-label">NEXT CHAPTER</p><h3>Technology & Engineering</h3><p>Ready to bring technical knowledge and people skills into an internship and grow as an engineer.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-inner reveal">
+        <p class="section-index">05 / CONTACT</p>
+        <h2>Have an opportunity,<br />project or just want to say hello?</h2>
+        <a class="contact-email" href="mailto:juniorwp08@gmail.com">juniorwp08@gmail.com <span>↗</span></a>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/albertodmjunior/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i> LinkedIn ↗</a>
+          <a href="https://github.com/albertojunior-dev" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub ↗</a>
+          <a href="mailto:juniorwp08@gmail.com"><i class="fa-regular fa-envelope"></i> Email ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="terminal-section" aria-label="AJDEV terminal animation">
+      <div class="container">
+        <div class="real-terminal reveal" id="career-terminal">
+          <div class="real-terminal-bar">
+            <div class="traffic-lights" aria-hidden="true"><span></span><span></span><span></span></div>
+            <strong>AJDEV — Terminal</strong>
+            <div class="terminal-spacer"></div>
+          </div>
+          <div class="real-terminal-body" id="terminal-screen"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer><div class="container footer-inner"><a class="logo footer-logo" href="#home"><span>AJ</span>DEV</a><p>© 2026 Alberto Junior. Built with curiosity & code.</p><a href="#home" class="back-top">BACK TO TOP ↑</a></div></footer>
+
+  <script>
+    // Two JavaScript-driven binary lines between About and Skills.
+    const binaryTracks = [...document.querySelectorAll('.binary-js-track')];
+    const binaryPattern = Array.from({ length: 180 }, () => Math.random() > .5 ? '1' : '0').join('  ') + '    ';
+    binaryTracks.forEach(track => track.textContent = binaryPattern + binaryPattern);
+    let binaryStart = performance.now();
+    function animateBinary(now) {
+      const elapsed = (now - binaryStart) / 1000;
+      binaryTracks.forEach((track, index) => {
+        const half = track.scrollWidth / 2;
+        if (!half) return;
+        const speed = index === 0 ? 42 : 36;
+        const offset = (elapsed * speed) % half;
+        track.style.transform = `translate3d(${index === 0 ? -offset : -half + offset}px,0,0)`;
+      });
+      requestAnimationFrame(animateBinary);
+    }
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) requestAnimationFrame(animateBinary);
+
+    // Reveal + staggered cards
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal, .skill-group, .timeline article').forEach((el, i) => {
+      el.style.transitionDelay = `${Math.min(i % 4, 3) * 70}ms`;
+      observer.observe(el);
+    });
+
+    // Theme: dark is always the default on a fresh visit.
+    const themeToggle = document.getElementById('theme-toggle');
+    const setTheme = theme => {
+      document.documentElement.dataset.theme = theme;
+      const light = theme === 'light';
+      themeToggle.innerHTML = light ? '<i class="fa-regular fa-moon"></i>' : '<i class="fa-regular fa-sun"></i>';
+      themeToggle.setAttribute('aria-label', light ? 'Switch to dark mode' : 'Switch to light mode');
+    };
+    setTheme('dark');
+    themeToggle.addEventListener('click', () => setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'));
+
+    // English is the default. Text is switched client-side without reloading.
+    const translations = {
+      pt: {
+        '.navbar a[href="#about"]':'Sobre', '.navbar a[href="#skills"]':'Competências', '.navbar a[href="#projects"]':'Projetos', '.navbar a[href="#journey"]':'Experiência', '.navbar a[href="#contact"]':'Contacto',
+        '.eyebrow':'&gt; Olá, Mundo!<span class="cursor">_</span>', '.hero h1':'Eu sou <span>Alberto Junior.</span>', '.hero h2':'Estudante de Engenharia Informática.',
+        '.hero-description':'Desenvolvo software, aprendo continuamente e transformo ideias do mundo real em soluções tecnológicas práticas.',
+        '.hero-actions .btn-light':'Explorar projetos <span>↘</span>', '.hero-meta span:nth-child(1)':'<i class="fa-solid fa-code"></i> Desenvolvimento de Software', '.hero-meta span:nth-child(2)':'<i class="fa-solid fa-network-wired"></i> Redes de Computadores', '.hero-meta span:nth-child(3)':'<i class="fa-solid fa-shield-halved"></i> Cibersegurança',
+        '#about .section-index':'01 / SOBRE', '#about .section-title':'Da hospitalidade<br>à engenharia.',
+        '#about .about-copy p:nth-child(1)':'Sou estudante de Engenharia Informática com experiência profissional em hospitalidade, onde desenvolvi fortes competências de comunicação, trabalho em equipa e gestão de pessoas ao assumir responsabilidades de liderança de equipa.',
+        '#about .about-copy p:nth-child(2)':'A hospitalidade teve um papel importante no meu percurso profissional, mas o meu objetivo agora é fazer a transição para a área tecnológica e construir a minha carreira em engenharia e desenvolvimento de software.',
+        '#about .about-copy p:nth-child(3)':'Gosto de transformar ideias em soluções práticas, aprender novas tecnologias e trabalhar em projetos que combinam resolução de problemas, criatividade e necessidades reais.',
+        '#skills .section-index':'02 / COMPETÊNCIAS', '#skills .section-title':'Tecnologias que utilizo.', '#skills .section-heading-row > p':'Tecnologias e conceitos que utilizo em projetos académicos e pessoais.',
+        '.skill-group:nth-child(1) h3':'Programação', '.skill-group:nth-child(2) h3':'Web & Bases de Dados', '.skill-group:nth-child(3) h3':'Ferramentas', '.skill-group:nth-child(4) h3':'Redes de Computadores',
+        '#projects .section-index':'03 / PROJETOS', '#projects .section-title':'Projetos selecionados.', '#projects .section-heading-row > p':'Projetos onde aplico engenharia a problemas práticos.',
+        '.project-card:nth-child(1) .project-status':'JOGO INTERATIVO DE MEMÓRIA', '.project-card:nth-child(1) .project-content p':'Um jogo interativo de treino de memória inspirado no serviço real de restaurante. Os jogadores ouvem pedidos de clientes, memorizam-nos e testam a precisão ao longo de rondas progressivamente mais desafiantes.',
+        '.project-card:nth-child(2) .project-status':'PROJETO REAL', '.project-card:nth-child(2) .project-content p':'Um website interativo pensado para clientes de uma steakhouse explorarem cortes de carne, as suas características e processos de maturação. O projeto transforma conhecimento de hospitalidade numa experiência digital acessível.',
+        '.project-card:nth-child(3) .project-status':'PROJETO DE PROCESSAMENTO DE IMAGEM', '.project-card:nth-child(3) .project-content p':'Um laboratório 3D interativo que visualiza ótica de câmara, lentes convergentes, raios de luz e formação da imagem, ligando conceitos físicos da câmara ao processamento digital de imagem.',
+        '.project-card:nth-child(4) .project-status':'PROJETO ACADÉMICO', '.project-card:nth-child(4) .project-content p':'Uma aplicação web criada para ajudar os utilizadores a descobrir Lisboa através de pontos de interesse e percursos. Projeto académico que explora desenvolvimento web, sistemas distribuídos, bases de dados e contentorização.',
+        '.project-card:nth-child(1) .project-links a':'Ver projeto online ↗', '.project-card:nth-child(2) .project-links a':'Ver projeto online ↗', '.project-card:nth-child(3) .project-links a':'Ver projeto online ↗', '.coming-soon':'Deploy no GitHub em breve', '#journey .section-index':'04 / EXPERIÊNCIA', '#journey .section-title':'O meu percurso.', '#journey .section-heading-row > p':'Competências de uma área aplicadas ao próximo capítulo.',
+        '.timeline article:nth-child(1) .timeline-label':'BASE', '.timeline article:nth-child(1) h3':'Hospitalidade', '.timeline article:nth-child(1) > p:last-child':'Experiência do cliente, comunicação, adaptabilidade e trabalho eficaz em ambientes de ritmo acelerado.',
+        '.timeline article:nth-child(2) .timeline-label':'CRESCIMENTO', '.timeline article:nth-child(2) h3':'Liderança de Equipa', '.timeline article:nth-child(2) > p:last-child':'Responsabilidade, trabalho em equipa, liderança e apoio às pessoas para alcançar um objetivo comum.',
+        '.timeline article:nth-child(3) .timeline-label':'AGORA', '.timeline article:nth-child(3) h3':'Engenharia Informática', '.timeline article:nth-child(3) > p:last-child':'Desenvolvimento de software, redes, bases de dados e construção de soluções técnicas através de projetos académicos e pessoais.',
+        '.timeline article:nth-child(4) .timeline-label':'PRÓXIMO CAPÍTULO', '.timeline article:nth-child(4) h3':'Tecnologia & Engenharia', '.timeline article:nth-child(4) > p:last-child':'Preparado para levar conhecimento técnico e competências interpessoais para um estágio e crescer como engenheiro.',
+        '#contact .section-index':'05 / CONTACTO', '#contact h2':'Tem uma oportunidade,<br>projeto ou quer apenas dizer olá?', '.back-top':'VOLTAR AO TOPO ↑'
+      }
+    };
+    const english = {};
+    Object.keys(translations.pt).forEach(sel => { const el=document.querySelector(sel); if(el) english[sel]=el.innerHTML; });
+    const langToggle = document.getElementById('lang-toggle');
+    let language = 'en';
+    langToggle.addEventListener('click', () => {
+      language = language === 'en' ? 'pt' : 'en';
+      const dict = language === 'pt' ? translations.pt : english;
+      Object.entries(dict).forEach(([sel, html]) => { const el=document.querySelector(sel); if(el) el.innerHTML=html; });
+      document.documentElement.lang = language === 'pt' ? 'pt-PT' : 'en';
+      langToggle.textContent = language === 'en' ? 'PT' : 'EN';
+    });
+
+    // Career terminal: starts only when the terminal reaches the viewport.
+    const terminalScreen = document.getElementById('terminal-screen');
+    let terminalStarted = false;
+    const sleep = ms => new Promise(r => setTimeout(r, ms));
+    const terminalData = {
+      en: [
+        {type:'cmd', text:'whoami'},
+        {type:'out', html:'Alberto Junior<br>Computer Engineering Student'},
+        {type:'cmd', text:'./career --status'},
+        {type:'out', html:'<span class="dim">&gt; Background ........</span> Hospitality<br><span class="dim">&gt; Experience ........</span> Team Leadership<br><span class="dim">&gt; Current path ......</span> Computer Engineering<br><span class="dim">&gt; Focus .............</span> Software Development · Computer Networks · Cybersecurity<br><span class="dim">&gt; Status ............</span> Open to internship opportunities'},
+        {type:'cmd', text:'./contact'},
+        {type:'links'},
+        {type:'cmd', text:'./next-chapter'},
+        {type:'out', html:'Searching for opportunities...<br>Building new skills...<br>Creating new projects...<br><br><strong>STATUS: READY FOR WHAT\'S NEXT ✓</strong>'},
+        {type:'quote', html:'“The best way to predict the future is to invent it.”<br><span>— Alan Kay</span>'}
+      ],
+      pt: [
+        {type:'cmd', text:'whoami'},
+        {type:'out', html:'Alberto Junior<br>Estudante de Engenharia Informática'},
+        {type:'cmd', text:'./career --status'},
+        {type:'out', html:'<span class="dim">&gt; Experiência .........</span> Hospitalidade<br><span class="dim">&gt; Liderança ...........</span> Liderança de Equipa<br><span class="dim">&gt; Percurso atual ......</span> Engenharia Informática<br><span class="dim">&gt; Foco ................</span> Desenvolvimento de Software · Redes de Computadores · Cibersegurança<br><span class="dim">&gt; Estado ..............</span> Aberto a oportunidades de estágio'},
+        {type:'cmd', text:'./contact'},
+        {type:'links'},
+        {type:'cmd', text:'./next-chapter'},
+        {type:'out', html:'À procura de oportunidades...<br>A desenvolver novas competências...<br>A criar novos projetos...<br><br><strong>STATUS: PRONTO PARA O PRÓXIMO DESAFIO ✓</strong>'},
+        {type:'quote', html:'“A melhor forma de prever o futuro é inventá-lo.”<br><span>— Alan Kay</span>'}
+      ]
+    };
+    async function typeText(el, text, speed=34) {
+      for (const ch of text) { el.textContent += ch; await sleep(speed); }
+    }
+    async function runTerminal() {
+      if (terminalStarted || !terminalScreen) return;
+      terminalStarted = true;
+      terminalScreen.innerHTML = '';
+      const seq = terminalData[language] || terminalData.en;
+      for (const item of seq) {
+        if (item.type === 'cmd') {
+          const row = document.createElement('div'); row.className='term-row command-row';
+          row.innerHTML='<span class="term-user">alberto@ajdev</span><span class="term-colon">:</span><span class="term-path">~</span><span class="term-dollar">$</span> <span class="typed"></span>';
+          terminalScreen.appendChild(row);
+          await typeText(row.querySelector('.typed'), item.text); await sleep(300);
+        } else if (item.type === 'out') {
+          const row=document.createElement('div'); row.className='term-row output-row'; row.innerHTML=item.html; terminalScreen.appendChild(row); await sleep(650);
+        } else if (item.type === 'links') {
+          const row=document.createElement('div'); row.className='term-row terminal-links';
+          row.innerHTML='<a href="https://www.linkedin.com/in/albertodmjunior/" target="_blank" rel="noopener noreferrer">[✓] LinkedIn</a><a href="https://github.com/albertojunior-dev" target="_blank" rel="noopener noreferrer">[✓] GitHub</a><a href="mailto:juniorwp08@gmail.com">[✓] Email</a>';
+          terminalScreen.appendChild(row); await sleep(650);
+        } else if (item.type === 'quote') {
+          const row=document.createElement('div'); row.className='term-quote'; row.innerHTML=item.html; terminalScreen.appendChild(row); await sleep(500);
+        }
+        terminalScreen.scrollTop = terminalScreen.scrollHeight;
+      }
+      appendTerminalChallengeInvite();
+    }
+    // If language changes after the terminal has started, replay it in the selected language.
+    langToggle.addEventListener('click', () => {
+      if (terminalStarted) {
+        terminalStarted = false;
+        terminalScreen.innerHTML = '';
+        setTimeout(runTerminal, 180);
+      }
+    });
+
+    const terminalObserver = new IntersectionObserver(entries => { if (entries.some(e => e.isIntersecting)) { setTimeout(runTerminal, 400); terminalObserver.disconnect(); } }, { threshold: .25 });
+    const careerTerminal = document.getElementById('career-terminal'); if (careerTerminal) terminalObserver.observe(careerTerminal);
+
+
+    // AJDEV Easter egg challenge — runs inside the same terminal.
+    let challengeIndex = 0;
+    let challengePassed = 0;
+    let terminalSnapshot = '';
+    let challengeActive = false;
+
+    const challengeData = {
+      en: [
+        { area:'PROGRAMMING', question:'What will this JavaScript code print?', code:'let x = 5;\n\nif (x % 2 === 0) {\n  console.log("A");\n} else {\n  console.log("B");\n}', options:['A','B'], answer:1, success:'ACCESS GRANTED', loading:'Loading Computer Networks...' },
+        { area:'COMPUTER NETWORKS', question:'Which device forwards packets between different networks?', options:['SWITCH','ROUTER','ACCESS POINT'], answer:1, success:'NETWORK ROUTE VERIFIED', loading:'Loading Cybersecurity...' },
+        { area:'CYBERSECURITY', question:'Which password is the strongest?', options:['alberto2026','password123','T7#mQ2!vL9@x'], answer:2, success:'SECURITY CHECK PASSED', loading:'' }
+      ],
+      pt: [
+        { area:'PROGRAMAÇÃO', question:'O que este código JavaScript irá imprimir?', code:'let x = 5;\n\nif (x % 2 === 0) {\n  console.log("A");\n} else {\n  console.log("B");\n}', options:['A','B'], answer:1, success:'ACESSO AUTORIZADO', loading:'A carregar Redes de Computadores...' },
+        { area:'REDES DE COMPUTADORES', question:'Que dispositivo encaminha pacotes entre redes diferentes?', options:['SWITCH','ROUTER','ACCESS POINT'], answer:1, success:'ROTA DE REDE VERIFICADA', loading:'A carregar Cibersegurança...' },
+        { area:'CIBERSEGURANÇA', question:'Qual destas palavras-passe é a mais forte?', options:['alberto2026','password123','T7#mQ2!vL9@x'], answer:2, success:'VERIFICAÇÃO DE SEGURANÇA CONCLUÍDA', loading:'' }
+      ]
+    };
+
+    function appendTerminalChallengeInvite() {
+      const pt = language === 'pt';
+      const wrap = document.createElement('div');
+      wrap.className = 'terminal-challenge-invite';
+      wrap.innerHTML = `
+        <div class="term-row command-row"><span class="term-user">alberto@ajdev</span><span class="term-colon">:</span><span class="term-path">~</span><span class="term-dollar">$</span> ./challenge</div>
+        <div class="terminal-challenge-copy">
+          <strong>${pt ? 'Pensas como um engenheiro?' : 'Think like an engineer?'}</strong>
+          <span>${pt ? '3 desafios: Programação · Redes de Computadores · Cibersegurança' : '3 challenges: Programming · Computer Networks · Cybersecurity'}</span>
+          <button type="button" id="terminal-challenge-start">&gt; ${pt ? 'iniciar_desafio' : 'start_challenge'}_</button>
+        </div>
+        <div class="term-row command-row"><span class="term-user">alberto@ajdev</span><span class="term-colon">:</span><span class="term-path">~</span><span class="term-dollar">$</span> <span class="terminal-cursor">█</span></div>`;
+      terminalScreen.appendChild(wrap);
+      wrap.querySelector('#terminal-challenge-start').addEventListener('click', startChallenge);
+      terminalScreen.scrollTop = terminalScreen.scrollHeight;
+    }
+
+    function challengeShell() {
+      terminalScreen.innerHTML = `<div class="challenge-body"><div class="challenge-progress"><span id="challenge-step">01 / 03</span><span id="challenge-score">0 PASSED</span></div><div id="challenge-content"></div></div>`;
+    }
+
+    function renderChallenge() {
+      const data = challengeData[language][challengeIndex];
+      const step = document.getElementById('challenge-step');
+      const score = document.getElementById('challenge-score');
+      const content = document.getElementById('challenge-content');
+      step.textContent = `${String(challengeIndex + 1).padStart(2,'0')} / 03`;
+      score.textContent = language === 'pt' ? `${challengePassed} CONCLUÍDOS` : `${challengePassed} PASSED`;
+      content.innerHTML = `
+        <p class="challenge-area">AJDEV CHALLENGE // ${data.area}</p>
+        <h3>${data.question}</h3>
+        ${data.code ? `<pre class="challenge-code"><code>${data.code.replace(/</g,'&lt;')}</code></pre>` : ''}
+        <div class="challenge-options">${data.options.map((option,i)=>`<button type="button" data-answer="${i}"><span>&gt;</span> ${option}</button>`).join('')}</div>
+        <p class="challenge-feedback" aria-live="polite">&gt; <span class="challenge-cursor">█</span></p>`;
+      content.querySelectorAll('[data-answer]').forEach(btn => btn.addEventListener('click', () => checkChallenge(Number(btn.dataset.answer))));
+    }
+
+    async function checkChallenge(choice) {
+      const data = challengeData[language][challengeIndex];
+      const content = document.getElementById('challenge-content');
+      const feedback = content.querySelector('.challenge-feedback');
+      const buttons = [...content.querySelectorAll('[data-answer]')];
+      if (choice !== data.answer) {
+        feedback.innerHTML = language === 'pt' ? '&gt; Resposta incorreta. Tenta novamente. <span class="challenge-cursor">█</span>' : '&gt; Incorrect answer. Try again. <span class="challenge-cursor">█</span>';
+        buttons[choice].classList.add('wrong'); setTimeout(()=>buttons[choice]?.classList.remove('wrong'),450); return;
+      }
+      buttons.forEach(b => b.disabled = true); buttons[choice].classList.add('correct'); challengePassed++;
+      feedback.innerHTML = `&gt; ✓ ${data.success}${data.loading ? `<br>&gt; ${data.loading}<br>&gt; ████████████████ 100%` : ''}`;
+      await sleep(950);
+      challengeIndex++;
+      if (challengeIndex < 3) renderChallenge(); else renderChallengeComplete();
+    }
+
+    function renderChallengeComplete() {
+      const pt = language === 'pt';
+      document.getElementById('challenge-step').textContent = '03 / 03';
+      document.getElementById('challenge-score').textContent = pt ? '3 CONCLUÍDOS' : '3 PASSED';
+      document.getElementById('challenge-content').innerHTML = `
+        <div class="challenge-complete">
+          <p>✓ ${pt ? 'PROGRAMAÇÃO' : 'PROGRAMMING'} ............ ${pt ? 'CONCLUÍDO' : 'PASSED'}</p>
+          <p>✓ ${pt ? 'REDES DE COMPUTADORES' : 'COMPUTER NETWORKS'} ...... ${pt ? 'CONCLUÍDO' : 'PASSED'}</p>
+          <p>✓ ${pt ? 'CIBERSEGURANÇA' : 'CYBERSECURITY'} .......... ${pt ? 'CONCLUÍDO' : 'PASSED'}</p>
+          <div class="challenge-access">ACCESS LEVEL: AJDEV ✓</div>
+          <h3>${pt ? 'Pensas como um engenheiro.' : 'You think like an engineer.'}</h3>
+          <p>${pt ? 'Obrigado por explorares o meu portfólio.' : 'Thanks for exploring my portfolio.'}</p>
+          <p class="achievement">🏆 ${pt ? 'Conquista desbloqueada: Future Engineer' : 'Achievement unlocked: Future Engineer'}</p>
+          <div class="challenge-final-actions">
+            <button type="button" class="challenge-replay" id="challenge-replay">&gt; ${pt ? 'jogar_novamente' : 'play_again'}_</button>
+            <button type="button" class="challenge-exit" id="challenge-exit">&gt; ${pt ? 'sair_do_desafio' : 'exit_challenge'}_</button>
+          </div>
+        </div>`;
+      document.getElementById('challenge-replay').addEventListener('click', startChallenge);
+      document.getElementById('challenge-exit').addEventListener('click', exitChallenge);
+    }
+
+    function startChallenge() {
+      if (!challengeActive) terminalSnapshot = terminalScreen.innerHTML;
+      challengeActive = true;
+      challengeIndex = 0; challengePassed = 0;
+      challengeShell();
+      renderChallenge();
+      terminalScreen.scrollTop = 0;
+    }
+
+    function exitChallenge() {
+      challengeActive = false;
+      terminalScreen.innerHTML = terminalSnapshot;
+      const start = terminalScreen.querySelector('#terminal-challenge-start');
+      if (start) start.addEventListener('click', startChallenge);
+      terminalScreen.scrollTop = terminalScreen.scrollHeight;
+    }
+
+    // If the language changes during the challenge, return to the normal terminal
+    // and replay it in the selected language so every terminal state stays bilingual.
+    langToggle.addEventListener('click', () => {
+      if (challengeActive) challengeActive = false;
+    });
+
+
+    document.querySelectorAll('.navbar a').forEach(link => link.addEventListener('click', () => {
+      document.getElementById('menu-toggle').checked = false;
+    }));
+  
+    // Selected Work horizontal carousel
+    (() => {
+      const carousel = document.getElementById('projectsCarousel');
+      const prev = document.querySelector('.projects-prev');
+      const next = document.querySelector('.projects-next');
+      const progress = document.getElementById('projectsProgress');
+      if (!carousel || !prev || !next) return;
+      const amount = () => Math.max(280, carousel.clientWidth * (window.innerWidth <= 700 ? .92 : .72));
+      const update = () => {
+        const max = carousel.scrollWidth - carousel.clientWidth;
+        const ratio = max > 0 ? carousel.scrollLeft / max : 0;
+        if (progress) progress.style.transform = `scaleX(${Math.max(.18, .18 + ratio * .82)})`;
+        prev.disabled = carousel.scrollLeft <= 4;
+        next.disabled = carousel.scrollLeft >= max - 4;
+      };
+      prev.addEventListener('click', () => carousel.scrollBy({left:-amount(), behavior:'smooth'}));
+      next.addEventListener('click', () => carousel.scrollBy({left:amount(), behavior:'smooth'}));
+      carousel.addEventListener('scroll', update, {passive:true});
+      window.addEventListener('resize', update);
+      update();
+    })();
+</script>
+</body>
+</html>
